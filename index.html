@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAILY EASE COMPANION</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Recursive:wght@300..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" placeholder="Enter amount">
+
+        <label for="fromCurrency">From Currency:</label>
+        <select id="fromCurrency">
+            <option value="USD">USD - United States Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="GBP">GBP - British Pound Sterling</option>
+            <option value="JPY">JPY - Japanese Yen</option>
+            <option value="CHF">CHF - Swiss Franc</option>
+            <option value="CAD">CAD - Canadian Dollar</option>
+            <option value="AUD">AUD - Australian Dollar</option>
+            <option value="CNY">CNY - Chinese Yuan</option>
+            <option value="HKD">HKD - Hong Kong Dollar</option>
+            <option value="NZD">NZD - New Zealand Dollar</option>
+            <option value="SEK">SEK - Swedish Krona</option>
+            <option value="KRW">KRW - South Korean Won</option>
+            <option value="SGD">SGD - Singapore Dollar</option>
+            <option value="NOK">NOK - Norwegian Krone</option>
+            <option value="MXN">MXN - Mexican Peso</option>
+            <option value="INR">INR - Indian Rupee</option>
+            <option value="RUB">RUB - Russian Ruble</option>
+            <option value="ZAR">ZAR - South African Rand</option>
+            <option value="BRL">BRL - Brazilian Real</option>
+            <option value="TRY">TRY - Turkish Lira</option>
+        </select>
+
+        <label for="toCurrency">To Currency:</label>
+        <select id="toCurrency">
+            <option value="USD">USD - United States Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="GBP">GBP - British Pound Sterling</option>
+            <option value="JPY">JPY - Japanese Yen</option>
+            <option value="CHF">CHF - Swiss Franc</option>
+            <option value="CAD">CAD - Canadian Dollar</option>
+            <option value="AUD">AUD - Australian Dollar</option>
+            <option value="CNY">CNY - Chinese Yuan</option>
+            <option value="HKD">HKD - Hong Kong Dollar</option>
+            <option value="NZD">NZD - New Zealand Dollar</option>
+            <option value="SEK">SEK - Swedish Krona</option>
+            <option value="KRW">KRW - South Korean Won</option>
+            <option value="SGD">SGD - Singapore Dollar</option>
+            <option value="NOK">NOK - Norwegian Krone</option>
+            <option value="MXN">MXN - Mexican Peso</option>
+            <option value="INR">INR - Indian Rupee</option>
+            <option value="RUB">RUB - Russian Ruble</option>
+            <option value="ZAR">ZAR - South African Rand</option>
+            <option value="BRL">BRL - Brazilian Real</option>
+            <option value="TRY">TRY - Turkish Lira</option>
+        </select>
+
+        <button onclick="convertCurrency()">Convert</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
